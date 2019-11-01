@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sale System</string>
+
+    <string-array name="Clientes">
+        <item>Joao</item>
+        <item>Pedro</item>
+        <item>Maria</item>
+
+    </string-array>
+
+
+</resources>

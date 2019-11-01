@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".cadcliente">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastro Cliente"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+//nome cliente
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/novonome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="40"
+            android:hint="Digite o Nome do cliente"
+            android:layout_marginTop="10sp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+//cpf cliente
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/novocpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:ems="11"
+            android:hint="Digite o CPF do cliente"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+//telefone
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/novotelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:ems="11"
+            android:hint="Digite o DDD + telefone "
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+//cidade
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/novocidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:ems="30"
+            android:hint="Digite a Cidade"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+//botoes
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="94dp">
+
+        <Button
+            android:id="@+id/botaosalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FF9800"
+            android:hint="Salvar"
+            android:textAlignment="center"
+            android:textColor="#86FB0A"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/botaocancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FF9800"
+            android:hint="Cancelar"
+            android:textAlignment="center"
+            android:textColorHint="#F3F5F7"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
